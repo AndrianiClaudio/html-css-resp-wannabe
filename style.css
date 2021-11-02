@@ -104,3 +104,36 @@ img {
   background-color: #F2F2CD;  
   }
 }
+@media screen and (min-width: 420px) and (max-width: 1016px) {
+  body {
+    margin:0;
+    background-color: #ffffdf;
+  }
+
+  .row {
+    margin-top: 0;
+    width: 100%;
+  }
+  
+
+  #steps .row>.left,
+  #steps .row>.central {
+    margin-top: 30px;
+    width: 50%;
+  } 
+  #steps .row>.right {
+    margin-top: 30px;
+    width: 100%;
+  }
+  #steps
+  {
+    padding-top: 0.5em;
+    background-color: white;
+  }
+  h3 {
+    margin: 0;
+  }
+  #why {
+  background-color: #ffffdf;  
+  }
+}
