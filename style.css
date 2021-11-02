@@ -78,22 +78,28 @@ img {
     margin:0;
     background-color: #F2F2CD;
   }
+
   .row {
     margin-top: 0;
     width: 100%;
   }
-  /* BLOCCO LEZIONI */
+  
   #lezioni .row>.left,
-  #lezioni .row>.right {
-    width: 100%;
-  }
-  /* BLOCCO STEPS */
-  #steps {
-    background-color: white;
-  }
+  #lezioni .row>.right,
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
+    margin-top: 30px;
     width: 100%;
+  }
+  #steps
+  {
+    background-color: white;
+  }
+  h3 {
+    margin: 0;
+  }
+#why {
+  background-color: #F2F2CD;  
   }
 }
