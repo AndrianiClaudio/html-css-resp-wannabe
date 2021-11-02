@@ -74,9 +74,26 @@ img {
 
 /* DIMENSIONI 0-419PX */
 @media screen and (max-width:419px){
+  body {
+    margin:0;
+    background-color: #F2F2CD;
+  }
   .row {
-    background-color: yellow;
     margin-top: 0;
+    width: 100%;
+  }
+  /* BLOCCO LEZIONI */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+  }
+  /* BLOCCO STEPS */
+  #steps {
+    background-color: white;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
     width: 100%;
   }
 }
